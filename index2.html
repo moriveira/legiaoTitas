@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camisa Charlie Brown Jr. | Legião de Titãs</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    .product-page {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .product-page img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .product-info {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .product-info h1 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+
+    .product-info p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .product-info span {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000;
+      display: block;
+      margin-bottom: -20px;
+    }
+
+    .product-info .btn {
+      padding: 15px 35px;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      background-color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .product-info .btn:hover {
+      background-color: rgb(71, 71, 71);
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .product-page {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .product-info {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="img/logo.png" alt="marcaEmpresa">
+    <nav>
+      <a href="index.html#produtos">Produtos</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="product-page">
+    <div class="product-image">
+      <img src="img/moletom.png" alt="Moletom Mamonas Assassinas<">
+    </div>
+
+    <div class="product-info">
+      <h1>Moletom Mamonas Assassinas</h1>
+      <p>Inspirada na iconica banda brasileira: Mamonas Assassinas, esse moletom une estilo, conforto e personalidade. Perfeita para quem vive com atitude e carrega o espírito do rock nacional.</p>
+      <p>Tecido 100% algodão, modelagem unissex e estampa duradoura.</p>
+      <span>R$ 159,90</span>
+      <button class="btn">Comprar agora</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Legião de Titãs &copy; 2025 - Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
